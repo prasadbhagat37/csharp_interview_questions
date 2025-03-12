@@ -1,0 +1,8 @@
+D:\Sanjeevani\Interview Questions\CSharpDemo\bin\Debug\CSharpDemo.exe.config
+D:\Sanjeevani\Interview Questions\CSharpDemo\bin\Debug\CSharpDemo.exe
+D:\Sanjeevani\Interview Questions\CSharpDemo\bin\Debug\CSharpDemo.pdb
+D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.csproj.AssemblyReference.cache
+D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.csproj.SuggestedBindingRedirects.cache
+D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.csproj.CoreCompileInputs.cache
+D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.exe
+D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.pdb
