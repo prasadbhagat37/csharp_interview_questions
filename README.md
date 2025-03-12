@@ -1,2 +1,2 @@
-# c-_interview_questions
+# csharp_interview_questions
 c#_interview_questions
