@@ -1,6 +1,6 @@
 # C# Interview Questions & Answers
 
-#1. What is Object-Oriented Programming (OOP)?
+# 1. What is Object-Oriented Programming (OOP)?
 Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to design and develop applications.
 
 The key principles of OOP are (A-Pie):
