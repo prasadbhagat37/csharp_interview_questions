@@ -13,4 +13,4 @@ The key principles of OOP are **(A-Pie)**:
 A class is blueprint or template.
 
 ## 3. What is Object?
-Am object is instance of class.
+An object is instance of class.
