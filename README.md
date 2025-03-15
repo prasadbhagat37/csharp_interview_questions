@@ -23,8 +23,16 @@ The key principles of OOP are **(A-Pie)**:
   10. **Extensibility**:OOP makes code more extensible, allowing developers to add new features and functionalities to the application without compromising or altering the existing code. 
   11. **Faster Development**:OOP's features, such as code reusability and modularity, enable faster development cycles and reduced development costs. 
 
-## 2. What is Class?
-A class is blueprint or template.
+## 3. Limitations of OOP's
 
-## 3. What is Object?
+## 4. What is Class?
+A class is **blueprint** or template. It contains fields, methods and properties
+
+  Class members:
+  1.  **Constructor** : is a method in the class which gets executed when a class object is created.
+  2.  **Field**: is a variable of any type. It is basically a data.
+  3.  **Property**: is member that provides helps inn read and write of private field.
+  4.  **Method**: is code block that contains a series of statements.
+
+## 5. What is Object?
 An object is instance of class.
