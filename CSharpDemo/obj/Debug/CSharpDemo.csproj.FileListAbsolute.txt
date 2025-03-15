@@ -6,3 +6,11 @@ D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.csproj.Suggest
 D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.csproj.CoreCompileInputs.cache
 D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.exe
 D:\Sanjeevani\Interview Questions\CSharpDemo\obj\Debug\CSharpDemo.pdb
+C:\Users\Admin\Documents\GitHub\csharp_interview_questions\CSharpDemo\bin\Debug\CSharpDemo.exe.config
+C:\Users\Admin\Documents\GitHub\csharp_interview_questions\CSharpDemo\bin\Debug\CSharpDemo.exe
+C:\Users\Admin\Documents\GitHub\csharp_interview_questions\CSharpDemo\bin\Debug\CSharpDemo.pdb
+C:\Users\Admin\Documents\GitHub\csharp_interview_questions\CSharpDemo\obj\Debug\CSharpDemo.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\csharp_interview_questions\CSharpDemo\obj\Debug\CSharpDemo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\csharp_interview_questions\CSharpDemo\obj\Debug\CSharpDemo.exe
+C:\Users\Admin\Documents\GitHub\csharp_interview_questions\CSharpDemo\obj\Debug\CSharpDemo.pdb
+C:\Users\Admin\Documents\GitHub\csharp_interview_questions\CSharpDemo\obj\Debug\CSharpDemo.csproj.SuggestedBindingRedirects.cache
