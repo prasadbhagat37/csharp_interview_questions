@@ -142,11 +142,19 @@ A private virtual method cannot be overridden as it can’t be accessed outside 
 System.String is absolute. When a string variable’s value is modified, a new memory is assigned to the new value. The previous memory allocation gets released. 
 System.StringBuilder, on the other hand, is designed so it can have a mutable string in which a plethora of operations can be performed without the need for allocation of a separate memory location for the string that has been modified.
 
-Difference Between Abstract Class and Interface
-| Points | Abstract Class | Interface |
-|---|---|---|
-| Definition | Cannot be instantiated; contains both abstract (without implementation) and concrete methods (with implementation) | Specifies a set of methods a class must implement; methods are abstract by default. |
-| Implementation Method | Can have both implemented and abstract methods. | Methods are abstract by default; Java 8, can have default and static methods. |
-| Inheritance | class can inherit from only one abstract class. | A class can implement multiple interfaces. |
-| Access Modifiers | Methods and properties can have any access modifier (public, protected, private). | Methods and properties are implicitly public. |
-| Variables | Can have member variables (final, non-final, static, non-static). | Variables are implicitly public, static, and final (constants). |
+## X. Difference Between Abstract Class and Interface
+| Abstract Class | Interface |
+| --- | --- |
+| It contains both declaration and implementation parts.	| It contains only the declaration of methods, properties, events, or indexers. Since C# 8, default implementations can also be included in interfaces. |
+| Multiple inheritance is not achieved by abstract class.	| Multiple inheritance is achieved by interface. |
+| It contain constructor.	| It does not contain constructor. |
+| It can contain static members.	| It does not contain static members. |
+| It can contain different types of access modifiers like public, private, protected etc.	| It only contains public access modifier because everything in the interface is public. |
+| The performance of an abstract class is fast.	| The performance of interface is slow because it requires time to search actual method in the corresponding class. |
+| It is used to implement the core identity of class.	| It is used to implement peripheral abilities of class. |
+| A class can only use one abstract class.	| A class can use multiple interface. |
+| If many implementations are of the same kind and use common behavior, then it is superior to use abstract class.	| If many implementations only share methods, then it is superior to use Interface. |
+| Abstract class can contain methods, fields, constants, etc. |	Interface can only contains methods, properties, indexers, events. |
+| The keyword “:” can be used for implementing the Abstract class.	| The keyword “:” and “,” can be used for implementing the Interface. |
+| It can be fully, partially or not implemented.	| It should be fully implemented. |
+| To declare abstract class , we use abstract keyword.	| To declare interface, we use interface keyword. |
