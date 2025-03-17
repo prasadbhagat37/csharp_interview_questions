@@ -142,15 +142,11 @@ A private virtual method cannot be overridden as it can’t be accessed outside 
 System.String is absolute. When a string variable’s value is modified, a new memory is assigned to the new value. The previous memory allocation gets released. 
 System.StringBuilder, on the other hand, is designed so it can have a mutable string in which a plethora of operations can be performed without the need for allocation of a separate memory location for the string that has been modified.
 
-Difference Between Abstract Class and Interface |
+Difference Between Abstract Class and Interface
 | Points | Abstract Class | Interface |
-
+|---|---|---|
 | Definition | Cannot be instantiated; contains both abstract (without implementation) and concrete methods (with implementation) | Specifies a set of methods a class must implement; methods are abstract by default. |
-
 | Implementation Method | Can have both implemented and abstract methods. | Methods are abstract by default; Java 8, can have default and static methods. |
-
 | Inheritance | class can inherit from only one abstract class. | A class can implement multiple interfaces. |
-
 | Access Modifiers | Methods and properties can have any access modifier (public, protected, private). | Methods and properties are implicitly public. |
-
 | Variables | Can have member variables (final, non-final, static, non-static). | Variables are implicitly public, static, and final (constants). |
