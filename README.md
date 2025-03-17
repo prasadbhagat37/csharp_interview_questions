@@ -36,3 +36,54 @@ A class is **blueprint** or template. It contains fields, methods and properties
 
 ## 5. What is Object?
 An object is instance of class.
+
+## x. What are the distinctions between Array and Array List in C#?
+Arrays store values or elements of the same data type, whereas array lists store values of various data types.
+
+Arrays will use a fixed length, whereas array lists will not.
+
+## x. In C#, What are partial classes?
+Partially implemented classes distribute the functionality of a single class across multiple files. During the compilation process, these multiple files are combined into one. The partial keyword is used to create the partial class.
+
+public partial Class_name{
+ // code
+}
+
+Methods, interfaces, and structures' functionalities can be easily separated into multiple files. You can also include nested partial classes.
+
+## x.. What is the use of the method "hiding" in inheritance?
+Method hiding or Method shadowing is used to hide the implementation of the base class method under the shadow of the child class method, with the help of a **new** keyword.
+
+This is done to clear the ambiguity when the child class has a method with the same name as that of the base class and hence helps in abstraction.
+
+// C# program to illustrate the
+// concept of method hiding
+using System;
+// Base Class
+public class Parent {
+public void member()
+{
+ Console.WriteLine("Parent method");
+}
+}
+// Derived Class
+public class Child : Parent {
+// Reimplement the method of the base class
+// Using new keyword
+// It hides the method of the base class
+public new void member()
+{
+ Console.WriteLine("Child method");
+}
+}
+// Driver Class
+class DriverClass {
+// Main method
+static public void Main()
+{
+ // Creating the object of the derived class
+ Child obj = new Child();
+ // Access the method of derived class
+ obj.member();
+}
+}
